@@ -3,18 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+       
+    </style>
 </head>
-<body style="background-color: rgb(155, 74, 105);">
-    <h1>"If The Path To What You Want Seems To Easy, Then You're Probably On The Wrong Path" - Shanks</h1>
-    <h1>Info</h1>
-   <h2>NAME: Matthew Tylor Beckett</h2>
-   <h2>ABOUT: Aspiring game designer, with a love for environmental storytelling and the skillful art that comes with doing it right</h2>
-   <details><summary>WHATS THIS?</summary><p>Watch One Piece, 1000 episodes is not that bad</details>
+<body>
+    <!-- this handles the bar above the screen and the buttons that take you to my about and projects -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Matthew Beckett's Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            
+        </ul>
+    </div>
+</nav>
 
-    <img src="bloatrix sprite.png" width="300" height="300">
+<!-- this whole section is the main content for the portfolio -->
+<div class="container mt-5">
+    <!-- This is the section where i talk about myself -->
+    <section id="about" class="mb-5 fade-in">
+        <h2>About Me</h2>
+        <p>Welcome to the Gateway of Adventure!
 
+            Hey there, Gamers of the universe! 
+            I'm Matthew Tylor Beckett, an avid seeker of creating immersive gaming experiences.
+            As a second-year game design student at SAE, 
+            I'm on a mission to craft gaming adventures that not only captivate but also transport players to realms beyond imagination.
+            Within the vastness of the video game landscape, 
+            you'll find that my creativity knows no bounds.
+            Each asset, every line of code, and every second poured into my games is done with love. 
+            Whether it's traversing outer space or exploring the inner workings of caves youll enjoy every minute.
+</p>
+    </section>
 
+    <!-- This will be the section where i can add stuff about what i am up to -->
+    <section id="projects" class="mb-5 fade-in">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col-md-4 fade-in">
+                <a href="https://imxsqu1re.itch.io/intergalactic-skate-2d" class="card-link">
+                    <div class="card fade-in">
+                        <img src="assets/images/Icon.jpg" class="card-img-top" alt="INTERGALACTIC SKATE 2D">
+                        <div class="card-body">
+                            <h5 class="card-title">INTERGALACTIC SKATE 2D</h5>
+                            <p class="card-text">This is a game I made which is a 2D side-scroller I had the idea for it for quite a while so I made a rough 2D version
+                              of it as I prepare to make a more involved 3D version.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
 
+    <!-- This is the section where i show off my art i am m ost proud of-->
+    <section id="art" class="mb-5 fade-in">
+        <h2>Artwork</h2>
+    <p> I have done a lot of art ad assets concerning this game as i am so passionate about it.
+        Once i start getting into 3D modeling i plan to further use this character in a 3D landscape.
+    </p>
+        <div class="row">
+            <div class="col-md-4 fade-in">
+                <img src="assets/images/bloatrix sprite 1.0.png" class="img-fluid" alt="Artwork 1">
+            </div>
+            <div class="col-md-4 fade-in">
+                <img src="assets/images/Coin Sprite.png" class="img-fluid" alt="Artwork 2">
+            </div>
+            <div class="col-md-4 fade-in">
+                <img src="assets/images/Sprite Sheet.png" class="img-fluid" alt="Artwork 3">
+            </div>
+        </div>
+    </section>
+
+    <!-- this is the image link to the game -->
+    <section id="game" class="mb-5 fade-in">
+        <h2>Click Bloatrix</h2>
+        <a href="ME2 BLOATRIX SQUISH/index2.html" class="zoom-effect-container">
+            <img src="assets/images/BLOATRIX_PRE.png" alt="Game Image" class="fade-in">
+        </a>
+    </section>
+
+    <!-- my social links -->
+    <div class="row mb-5 fade-in">
+        <div class="col text-center">
+            <!-- LinkedIn link -->
+            <a class="btn btn-outline-light" href="https://www.linkedin.com/in/matthew-beckett-728224312/">LinkedIn</a>
+            <!-- Twitter link -->
+            <a class="btn btn-outline-light" href="https://x.com/IMXSquire">Twitter</a>
+            <!-- GitHub link -->
+            <a class="btn btn-outline-light" href="https://github.com/IMXSQUIRE">GitHub</a>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-dark text-white fade-in">
+  <p>&copy; 2024 Matthew's Portfolio. All rights reserved.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script> 
 </body>
 </html>

@@ -1,0 +1,146 @@
+/* this is the font for the headings in the portfolio */
+@font-face {
+    font-family: 'Silkscreen';
+    src: url('../fonts/Silkscreen-Regular.ttf') format('truetype');
+}
+
+/* this is the font for the general writing and descriptions */
+@font-face {
+    font-family: 'Jersey 25';
+    src: url('../fonts/Jersey25-Regular.ttf') format('truetype');
+}
+
+/* this is the font colour and background colour */
+body {
+    font-family: 'Jersey 25', Arial, sans-serif;
+    background-color: #b291c5; 
+    color: #333; 
+}
+
+/* this is the font for the header */
+h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #38162b; 
+    font-family: 'Silkscreen', sans-serif;
+}
+
+.card {
+    margin-bottom: 20px;
+    background-color: #76567f; 
+    border: 1px solid #ddd; 
+}
+
+#contact {
+    margin-top: 50px;
+}
+
+/* this is the colour and font of the bottom of the page */
+footer {
+    background-color: rgba(61, 61, 61, 0.8); 
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 30px;
+    color: #ffffff; 
+}
+
+/* Navbar with transparent background */
+.navbar {
+    background-color: rgba(77, 76, 76, 0.8); 
+}
+
+/* this is the animation for the portfolio when you open it the items fade into the screen */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* this is the Animation Classes and the time it takes to animate */
+.fadeIn {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.fadeInUp {
+    animation: fadeInUp 1s ease-in-out;
+}
+/* this is the font and the colour of the body and background */
+body {
+    font-family: 'Jersey 25', Arial, sans-serif;
+    background: linear-gradient(-45deg, #ff6b6b, #f2b6b6, #b291c5, #6bff6b);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    color: #333; 
+}
+/* this is the colour position */
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+ /* this is the fade in animation */
+ @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+/* this zooms in when hovering */
+.zoom-effect-container {
+    position: relative;
+    overflow: hidden;
+}
+.zoom-effect-container img {
+    transition: transform 0.5s ease;
+}
+.zoom-effect-container:hover img {
+    transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+/*  this is the class to activate the animation */
+.appear {
+    opacity: 1;
+}
+
